@@ -1,0 +1,7 @@
+
+ def max_customers(X, Y): 
+     return X * Y 
+ if __name__ == "__main__": 
+     X, Y = map(int, input().split()) 
+     result = max_customers(X, Y) 
+     print(result)
